@@ -1816,10 +1816,10 @@ ret@~0.1.10:
   resolved "https://registry.yarnpkg.com/ret/-/ret-0.1.15.tgz#b8a4825d5bdb1fc3f6f53c2bc33f81388681c7bc"
   integrity sha512-TTlYpa+OL+vMMNG24xSlQGEJ3B/RzEfUlLct7b5G/ytav+wPrplCpVMFuwzXbkecJrb6IYo1iFb0S9v37754mg==
 
-rift-ui@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/rift-ui/-/rift-ui-1.0.0.tgz#0e5f02fe70895d553c3f5877545d72bd38fa3572"
-  integrity sha512-zs+yT24Y4xjHG6IrqyNhzCUmaJg8XYvfjQZ+v0Tg+fq+sD1lQJVZFvdFlTLO8BAJufUkED56qab25zsvjsLRYw==
+rift-ui@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/rift-ui/-/rift-ui-1.0.2.tgz#019e928e35e2b41932004990a3ec3f92bdf901c7"
+  integrity sha512-YapffEq9PC7orpSlojOHpeuKxv1Hzla0QxlYHn/P9ETWqWtyi2qF8k7Dhue3NPJFKcTp3AYyFdAzBToE+KnNNg==
 
 rimraf@^2.6.1:
   version "2.6.3"

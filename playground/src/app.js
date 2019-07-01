@@ -1,4 +1,4 @@
-import { View, Text, Button, HStack, ForEach, If } from "rift-ui";
+import { View, Text, Button, HStack, ForEach, If } from "rift-ui/lib";
 
 const Header = title =>
   Text(title, "h1")

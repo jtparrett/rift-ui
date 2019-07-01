@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "npx babel ./src --out-dir ./dist --watch --copy-files"
+    "start": "npx babel ./src --out-dir ./dist --copy-files --watch"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
@@ -12,6 +12,6 @@
     "@babel/preset-env": "^7.4.5"
   },
   "dependencies": {
-    "rift-ui": "^1.0.0"
+    "rift-ui": "^1.0.2"
   }
 }

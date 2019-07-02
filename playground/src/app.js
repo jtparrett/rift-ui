@@ -1,4 +1,6 @@
-import { View, Text, Button, HStack, ForEach, If } from "rift-ui/lib";
+import "core-js/stable";
+import "regenerator-runtime/runtime";
+import { Root, Text, View, Button, HStack, ForEach, If } from "rift-ui";
 
 const Header = title =>
   Text(title, "h1")
@@ -45,7 +47,7 @@ const Tabs = (...tabs) => (activeTab = 0, setTab) =>
     .padding("20px");
 
 const App = View(
-  Header("Welcome!"),
+  Header("Welcome to Rift UI!"),
   Text("Testing 123", "h1")
     .fontWeight("bold")
     .fontSize("40px")

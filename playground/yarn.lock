@@ -2456,11 +2456,6 @@ regenerate@^1.4.0:
   resolved "https://registry.yarnpkg.com/regenerate/-/regenerate-1.4.0.tgz#4a856ec4b56e4077c557589cae85e7a4c8869a11"
   integrity sha512-1G6jJVDWrt0rK99kBjvEtziZNCICAuvIPkSiUFIQxVP06RCVpq3dmDo2oi6ABpYaDYaTRr67BEhL8r1wgEZZKg==
 
-regenerator-runtime@^0.13.2:
-  version "0.13.2"
-  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.2.tgz#32e59c9a6fb9b1a4aff09b4930ca2d4477343447"
-  integrity sha512-S/TQAZJO+D3m9xeN1WTI8dLKBBiRgXBlTJvbWjCThHWZj9EvHK70Ff50/tYj2J/fvBY6JtFVwRuazHN2E7M9BA==
-
 regenerator-transform@^0.14.0:
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/regenerator-transform/-/regenerator-transform-0.14.0.tgz#2ca9aaf7a2c239dd32e4761218425b8c7a86ecaf"
@@ -2542,10 +2537,10 @@ ret@~0.1.10:
   resolved "https://registry.yarnpkg.com/ret/-/ret-0.1.15.tgz#b8a4825d5bdb1fc3f6f53c2bc33f81388681c7bc"
   integrity sha512-TTlYpa+OL+vMMNG24xSlQGEJ3B/RzEfUlLct7b5G/ytav+wPrplCpVMFuwzXbkecJrb6IYo1iFb0S9v37754mg==
 
-rift-ui@^1.0.7:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/rift-ui/-/rift-ui-1.0.7.tgz#7f8b6987a134bae7e2f42171ac47769444dcc536"
-  integrity sha512-mqGWpntXJfrm6/Xr3DMVn73MLQ3jtnHYxqoLHKYyGZydsbt1LUF+/NJHGmOVT7juZDKykoOE+OyftBJNkDaimA==
+rift-ui@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/rift-ui/-/rift-ui-1.1.0.tgz#594020621e5adebab0ffb2f8b90e2674b9aedc9c"
+  integrity sha512-GcQjcsSKaVHyJOG9ogqtulM1Aa5lKfwrXjrL0ZlStXDhodK8Q6IWeWU1MG88PX1Ih349Hi9e4J+Xtn8aU0zPsw==
 
 rimraf@^2.6.1:
   version "2.6.3"

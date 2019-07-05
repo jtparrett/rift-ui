@@ -5,9 +5,9 @@ class Component {
     this.node =
       typeof element === "string" ? document.createElement(element) : element;
 
-    Object.keys(document.body.style).forEach(prop => {
-      this[prop] = value => {
-        this.node.style[prop] = value;
+    Object.keys(document.body.style).forEach(attr => {
+      this[attr] = value => {
+        this.node.style[attr] = value;
         return this;
       };
     });

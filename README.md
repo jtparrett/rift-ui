@@ -116,22 +116,6 @@ There is a special .attr method for adding attributes to an element:
     .attr('data-thing', true)
 ```
 
-### Async Components
-
-Rift UI supports async components like so:
-
-```
-  const MyComponent = async () => {
-    const products = await fetch(myURL)
-
-    return View(ForEach(products, (product) => Text(product.name)))
-  }
-
-  const App = View(
-    MyComponent
-  )
-```
-
 ### Method Components
 
 Rift UI currently supports `ForEach` and `If` components, used like so:

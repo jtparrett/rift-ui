@@ -1,5 +1,4 @@
 import "core-js/stable";
-import "regenerator-runtime/runtime";
 import { Root, Text, View, Button, HStack, ForEach, If } from "rift-ui";
 
 const Header = title =>
@@ -62,15 +61,15 @@ const App = View(
     Text("Tab 4"),
     Text("Tab 5")
   ),
-  Ticker,
-  Thing(100),
   HStack(
-    ForEach([1, 2, 3, 4], child => {
-      return Text(child)
+    ForEach([1, 2, 3, 4], child =>
+      Text(child)
         .flex(1)
-        .textAlign("center");
-    })
-  )
+        .textAlign("center")
+    )
+  ),
+  Ticker,
+  Thing(100)
 );
 
 Root(document.getElementById("root"), App);

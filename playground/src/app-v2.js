@@ -35,11 +35,10 @@ const Ticker = (count = 0, setCount) =>
   Button(Text(`Click Me ${count}`, "span")).onClick(() => setCount(count + 1));
 
 const App = View(
-  Banner({ title: "Mulan Framework" }),
-  Container(
-    Text("This is a test page for the mulan framework"),
-    Ticker
-  ).paddingTop("50px")
+  Banner({ title: "Framework" }),
+  Container(Text("This is a test page for the framework"), Ticker).paddingTop(
+    "50px"
+  )
 );
 
 Root(document.getElementById("root"), App);

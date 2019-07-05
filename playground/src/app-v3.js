@@ -1,22 +1,3 @@
-const Suspense = (fallback, render) => {
-  let component;
-
-  return async (isLoading = true, setLoading) => {
-    if (isLoading) {
-      new Promise(async resolve => {
-        component = await render();
-        resolve();
-      }).then(() => setLoading(false));
-    }
-
-    if (isLoading) {
-      return fallback;
-    }
-
-    return component;
-  };
-};
-
 const LoadingProducts = (state = { loading: true, products: [] }, setState) => {
   if (state.loading) {
     fetch("https://j-parre.myshopify.com/products.json")
@@ -37,21 +18,6 @@ const LoadingProducts = (state = { loading: true, products: [] }, setState) => {
   );
 };
 
-const Products = async () => {
-  const req = await fetch("https://j-parre.myshopify.com/products.json");
-  const { products } = await req.json();
-
-  return View(
-    ForEach(products, product => {
-      return Text(product.title);
-    })
-  );
-};
-
-const App = View(
-  Text("Testing Query"),
-  Suspense(Text("Loading..."), Products),
-  LoadingProducts
-);
+const App = View(Text("Testing Query"), LoadingProducts);
 
 Root(document.getElementById("root"), App);
